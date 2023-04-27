@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.phone-tablet {
+  display: none;
+}
+
+.first-line {
+  display: flex;
+  padding: 32px 16px;
+  justify-content: space-between;
+}
+
+.first-button {
+  padding: 17px 17px;
+  border: 1px solid #172339;
+  border-radius: 6px;
+  height: 48px;
+  cursor: pointer;
+  background-color: white;
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 14px;
+  color: #172339;
+}
+
+.first-button:hover {
+  background-color: #172339;
+  transition: 0.5s;
+  color: white;
+}
+
+.button-text {
+  width: 165px;
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 14px;
+  color: #172339;
+}
+
+.button-text:hover {
+  color: white;
+}
+
+.dark-stick {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.motto {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 44px;
+  color: #172339;
+  text-align: center;
+}
+
+.bold-words {
+  font-weight: bold;
+}
+
+.description {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  text-align: center;
+  width: 355px;
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #49566d;
+  margin-top: 32px;
+}
+
+.button {
+  padding: 15px 32px;
+  background-color: #172339;
+  width: 262px;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  margin-top: 32px;
+}
+
+.button:hover {
+  background: linear-gradient(135deg, #a060ff 0%, #cb30e3 49.21%, #ffa84e 100%);
+  transition: 0.5s;
+}
+
+.text {
+  color: white;
+  font-size: 18px;
+  width: 200px;
+}
+
+.phone-mobile {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  margin-top: 57px;
+}
+
+.quantity {
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #172339;
+}
+
+.compilance {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 2.5px;
+  color: #49566d;
+}
+
+.quantity1 {
+  margin-top: 56px;
+}
+
+.quantity2 {
+  margin-top: 32px;
+}
+
+.blue-div {
+  background: #172339;
+  border-radius: 15px;
+  margin-top: 237px;
+  padding-bottom: 64px;
+  padding-top: 230px;
+}
+
+.light-stick {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.white-sentence {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #faf8f6;
+  margin-top: 37px;
+}
+
+.Jeremys-words {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 345px;
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #f3ede7;
+  margin-top: 40px;
+}
+
+.name {
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #faf8f6;
+  margin-top: 40px;
+}
+
+.proff {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 2.5px;
+  color: #f3ede7;
+}
+
+.blue-div-and-Jeremy {
+  position: relative;
+}
+
+.Jeremy {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: -2%;
+  left: 50%;
+}
+
+.footer {
+  background-color: #f3ede7;
+  padding-bottom: 80px;
+  padding-top: 70px;
+  margin-top: -14px;
+}
+
+.last-logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.copyright {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 32px;
+  text-align: center;
+  color: #49566d;
+  margin-top: 33px;
+}
+
+.icons {
+  display: flex;
+  gap: 28px;
+  justify-content: center;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.icon-fb:hover {
+  filter: invert(10%) sepia(91%) saturate(7498%) hue-rotate(248deg)
+    brightness(86%) contrast(145%);
+}
+
+.icon-twitter:hover {
+  filter: invert(81%) sepia(19%) saturate(959%) hue-rotate(165deg)
+    brightness(93%) contrast(99%);
+}
+
+.icon-insta:hover {
+  filter: invert(27%) sepia(82%) saturate(5983%) hue-rotate(353deg)
+    brightness(99%) contrast(132%);
+}
+
+@media (min-width: 768px) {
+  .phone-mobile {
+    display: none;
+  }
+
+  .phone-tablet {
+    display: block;
+  }
+
+  .first-line {
+    padding: 59px 32px;
+  }
+
+  .first-button {
+    width: 200px;
+  }
+
+  .button-text {
+    width: 175px;
+    font-size: 16px;
+  }
+
+  .block-elements-div {
+    display: block;
+    position: absolute;
+  }
+
+  .block-and-flex-div {
+    display: flex;
+    justify-content: end;
+  }
+}
